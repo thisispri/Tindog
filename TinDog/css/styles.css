@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-  padding: 1% 13% 8%;
+  padding: 1% 13% 10%;
   /* height:700px; */
 }
 
@@ -72,7 +72,7 @@ p {
 
 /* features */
 #features {
-  padding: 7% 15%;
+  padding: 5% 15%;
   background-color: #fff;
   position: relative;
   z-index: 1;
@@ -129,4 +129,15 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
